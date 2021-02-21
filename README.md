@@ -18,7 +18,7 @@ Restart your device if needed, and make sure virtualization is enabled from bios
 ### Step 2: Update to Windows Subsystem Linux
 Download WSL2 Update Package: [Download Package](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
-** Now Set WSL default to version 2 using the following command **
+**Now Set WSL default to version 2 using the following command**
 In CMD or Powershell
 ```cmd
 wsl --set-default-version 2
