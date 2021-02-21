@@ -100,8 +100,8 @@ sudo /etc/init.d/xrdp start
 ### Open Windows Remote Desktop Service
 search for rdp in start menu
 
-** Use Computer as : ```localhost:3390``` or ```localhost:3389``` if you didn't change the port. **
-Then click Connect
+**Use Computer as : ```localhost:3390``` or ```localhost:3389``` if you didn't change the port.**
+**Then click Connect**
 
 You'll be asked for the unix username and password and keep the session type to xorg
 
