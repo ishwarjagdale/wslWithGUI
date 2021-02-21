@@ -90,6 +90,7 @@ then
 wsl
 ```
 in CMD or PowerShell
+
 ---
 ## Done!!
 ### Now run the xrdp service using (in shell)
