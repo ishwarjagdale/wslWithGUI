@@ -24,7 +24,13 @@ In CMD or Powershell
 wsl --set-default-version 2
 ```
 
+If you have already installed linux, update its version by:
+```
+wsl --set-version <linuxName> 2
+```
+
 Now, if everything done correctly wsl will be updated and set default for linux installations
+
 ---
 ### Step 3: Install Ubuntu
 Download the LTS version of Ubuntu from the Microsoft Store : [Link](https://www.microsoft.com/store/productId/9N6SVWS3RX71)
