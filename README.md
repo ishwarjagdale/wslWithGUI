@@ -13,6 +13,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 Restart your device if needed, and make sure virtualization is enabled from bios
+
 ---
 ### Step 2: Update to Windows Subsystem Linux
 Download WSL2 Update Package: [Download Package](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
@@ -41,6 +42,7 @@ We'll be using the Remote Desktop Protocol to connect to the display
 sudo apt install xrdp gnome-shell-desktop
 ```
 During installation if prompted to configure display manager, select ```gdm```
+
 ---
 ### Step 5: Configure XRDP
 - Take a backup of the xrdp first
@@ -52,7 +54,8 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 ```
 - Change the resolution for better quality (optional)
-** The rdp connection will be local so why not better image quality **
+
+*The rdp connection will be local so why not better image quality*
 ```sh
 sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
 sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
@@ -100,6 +103,7 @@ search for rdp in start menu
 Then click Connect
 
 You'll be asked for the unix username and password and keep the session type to xorg
+
 ---
 That's it.
 Thank you for reading!
