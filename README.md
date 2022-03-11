@@ -45,7 +45,7 @@ sudo apt install update && sudo apt upgrade
 We'll be using the Remote Desktop Protocol to connect to the display
 
 ```sh
-sudo apt install xrdp gnome-shell-desktop
+sudo apt install xrdp ubuntu-gnome-desktop
 ```
 During installation if prompted to configure display manager, select ```gdm```
 
