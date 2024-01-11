@@ -38,7 +38,7 @@ Download the LTS version of Ubuntu from the Microsoft Store : [Link](https://www
 After downloading, open the Ubuntu app it'll install the linux subsystem.
 Follow the instructions and enter your unix username and password, when the linux is setup install the updates the system.
 ```sh
-sudo apt install update && sudo apt upgrade
+sudo apt update && sudo apt upgrade
 ```
 ---
 ### Step 4: Install xrdp service and Ubuntu Gnome Desktop
